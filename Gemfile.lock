@@ -54,8 +54,12 @@ GEM
     erubis (2.7.0)
     execjs (2.7.0)
     ffi (1.9.25)
+    font-awesome-rails (4.7.0.3)
+      railties (>= 3.2, < 5.2)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
+    haml (4.0.5)
+      tilt
     i18n (1.0.1)
       concurrent-ruby (~> 1.0)
     jbuilder (2.7.0)
@@ -81,6 +85,7 @@ GEM
     nio4r (2.3.1)
     nokogiri (1.8.2)
       mini_portile2 (~> 2.3.0)
+    pg (0.21.0)
     puma (3.11.4)
     rack (2.0.5)
     rack-test (0.6.3)
@@ -161,9 +166,12 @@ PLATFORMS
 DEPENDENCIES
   byebug
   coffee-rails (~> 4.2)
+  font-awesome-rails
+  haml
   jbuilder (~> 2.5)
   jquery-rails
   listen (~> 3.0.5)
+  pg
   puma (~> 3.0)
   rails (~> 5.0.6)
   sass-rails (~> 5.0)

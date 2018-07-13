@@ -3696,10 +3696,11 @@ body {
 }
 
 .navbar.navbar-transparent {
-    background-color: transparent !important;
+    /*background-color: transparent !important;*/
+    background-color: #2c2c2c !important;
     box-shadow: none;
     color: #FFFFFF;
-    padding-top: 20px;
+    /*padding-top: 20px;*/
 }
 
 .navbar.bg-white:not(.navbar-transparent) a:not(.dropdown-item) {
