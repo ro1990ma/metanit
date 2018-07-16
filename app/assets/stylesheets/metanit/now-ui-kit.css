@@ -7534,3 +7534,16 @@ Created using IcoMoon - icomoon.io
         transform: translateY(-50%);
     }
 }
+
+
+
+.wrapper{
+  /*padding-top: 60px;*/
+  min-height: 900px;
+}
+.section-signup-login{
+  /*border: 1px solid red;*/
+  padding: 100px 0px;
+}
+.section-signup-login h1{font-size: 1.5em; }
+.section-signup-login h2{ font-size: 1.5em;}
